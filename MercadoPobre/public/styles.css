@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "mate", serif; 
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.logo-container {
+    background-color: #6a1a9a; 
+    padding: 10px 40px; /* Ajusta el tamaño de la caja del logo */
+    margin-bottom: 20px; /* Espacio entre el logo y el formulario */
+    
+    /* Línea negra para el borde */
+    border-bottom: 5px solid #000; 
+}
+.logo-text {
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px; 
+    line-height: 1; 
+    text-align: center;
+    
+    /* Efecto de borde blanco */
+    text-shadow: 
+        1px 1px 0 #fff, 
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff, 
+        -1px 1px 0 #fff; 
+    margin: 0; 
+}
+.formulario{
+    width: 25%;
+    height: 45%;;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/*Cambiar el fondo con svg */
+.fondo{
+    background: #280050;
+    background-image: url('img/dragon-scales.svg');
+}
+
+.cuenta_nueva{
+    text-align: center;
+}
+
+
+.btn btn-primary{
+    border: 2px solid #00ff00;
+}
+
+
+.Registrodeusuario{
+    background: white;
+    padding: 30px;
+    
+    border-radius: 10px;
+}
