@@ -11,10 +11,8 @@ Route::get('/hola', function () {
     return view('hola');
 });
 
-
 Route::get('/registrousuario', function () {
     return view('registrousuario');
 });
-
 
 Route::get('/productos', [ProductoController::class, 'index']);

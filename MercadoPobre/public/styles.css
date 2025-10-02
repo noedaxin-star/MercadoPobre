@@ -10,7 +10,10 @@ body{
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
+    background-image: url('img/dragon-scales.svg');
 }
+
+
 .logo-container {
     background-color: #6a1a9a; 
     padding: 10px 40px; /* Ajusta el tamaño de la caja del logo */
@@ -28,10 +31,10 @@ body{
     
     /* Efecto de borde blanco */
     text-shadow: 
-        1px 1px 0 #fff, 
-        -1px -1px 0 #fff,
-        1px -1px 0 #fff, 
-        -1px 1px 0 #fff; 
+        1px 1px 0 #e7e1e1, 
+        -1px -1px 0 #e7e1e1,
+        1px -1px 0 #e7e1e1, 
+        -1px 1px 0 #e7e1e1; 
     margin: 0; 
 }
 .formulario{
